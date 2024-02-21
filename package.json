@@ -1,0 +1,21 @@
+{
+  "name": "sse-publish-proto",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev --port 9000",
+    "start": "wrangler dev"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240208.0",
+    "typescript": "^5.3.3",
+    "wrangler": "^3.28.4"
+  },
+  "dependencies": {
+    "@cloudflare/itty-router-openapi": "^1.0.10",
+    "@pothos/core": "^3.41.0",
+    "@pothos/plugin-with-input": "^3.10.1",
+    "itty-router": "^4.0.27"
+  }
+}
